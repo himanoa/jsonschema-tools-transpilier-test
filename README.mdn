@@ -1,7 +1,3 @@
-
-## Generated types
-
-```typescript
 export type StringZg9WKgrT = string;
 export type Integer7Bd9WOt2 = number;
 export type UndefinedAsReadonly = any;
@@ -14,4 +10,3 @@ export interface ObjectOfStringZg9WKgrTOneOfUndefinedAsAdminUndefinedAsNormalUnd
   kind: OneOfUndefinedAsAdminUndefinedAsNormalUndefinedAsReadonlyIdmfTfqU;
   [k: string]: any;
 }
-```
