@@ -15,7 +15,16 @@
   resolved "https://registry.yarnpkg.com/@json-schema-spec/json-pointer/-/json-pointer-0.1.2.tgz#5153d5d01b94134015ee829deca5a970cf0406fd"
   integrity sha512-BYY7IavBjwsWWSmVcMz2A9mKiDD9RvacnsItgmy1xV8cmgbtxFfKmKMtkVpD7pYtkx4mIW4800yZBXueVFIWPw==
 
-"@json-schema-tools/reference-resolver@^1.1.1":
+"@json-schema-tools/dereferencer@^1.4.0":
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/@json-schema-tools/dereferencer/-/dereferencer-1.4.0.tgz#ec583a0495954a89013366e8f22d886d509b1356"
+  integrity sha512-Wzn9Ss9AaCWGGYJZNN3dMFq5GhZnrhzqgGkqN3hEP2A3/9gxIC9B+pm6ejFPmWF9M2xbO+zLn5BB8rEX4xdW/w==
+  dependencies:
+    "@json-schema-tools/reference-resolver" "^1.0.7"
+    "@json-schema-tools/traverse" "^1.7.5"
+    fast-safe-stringify "^2.0.7"
+
+"@json-schema-tools/reference-resolver@^1.0.7":
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/@json-schema-tools/reference-resolver/-/reference-resolver-1.1.1.tgz#f001785b65756042679f3429a0a530a32b16ad8f"
   integrity sha512-T0ntnhaMUOEBNzb37Y7LRJdCt34vlExEqyVvcRO1iScLpVnBhddgECS1XjT8eZQVc7UuH5KssTy8T0/g7m1xbw==
@@ -48,10 +57,15 @@
     lodash.deburr "^4.1.0"
     lodash.trim "^4.5.1"
 
-"@json-schema-tools/traverse@^1.7.3", "@json-schema-tools/traverse@^1.7.7":
+"@json-schema-tools/traverse@^1.7.3", "@json-schema-tools/traverse@^1.7.5", "@json-schema-tools/traverse@^1.7.7":
   version "1.7.7"
   resolved "https://registry.yarnpkg.com/@json-schema-tools/traverse/-/traverse-1.7.7.tgz#1b5ec2854fec23a5ac3ff04d459c2ac11bcf2df2"
   integrity sha512-ch/pPoOEIeKe1PKbfuLEIM8MAdTiR+fr9BYk6VTlIHrya5f5d8shJg6h/oQgD3K/ftjU/RYBGGalw9Pz4pCXew==
+
+fast-safe-stringify@^2.0.7:
+  version "2.0.7"
+  resolved "https://registry.yarnpkg.com/fast-safe-stringify/-/fast-safe-stringify-2.0.7.tgz#124aa885899261f68aedb42a7c080de9da608743"
+  integrity sha512-Utm6CdzT+6xsDk2m8S6uL8VHxNwI6Jub+e9NYTcAms28T84pTa25GJQV9j0CY0N1rM8hK4x6grpF2BQf+2qwVA==
 
 isomorphic-fetch@^3.0.0:
   version "3.0.0"

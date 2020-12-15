@@ -6,7 +6,7 @@
   "license": "MIT",
   "dependencies": {
     "@japan-d2/schema": "^0.8.2",
-    "@json-schema-tools/reference-resolver": "^1.1.1",
+    "@json-schema-tools/dereferencer": "^1.4.0",
     "@json-schema-tools/transpiler": "^1.7.0"
   }
 }
