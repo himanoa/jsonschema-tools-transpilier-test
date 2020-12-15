@@ -10,6 +10,19 @@
     json-schema "^0.2.5"
     jsonschema "^1.4.0"
 
+"@json-schema-spec/json-pointer@^0.1.2":
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/@json-schema-spec/json-pointer/-/json-pointer-0.1.2.tgz#5153d5d01b94134015ee829deca5a970cf0406fd"
+  integrity sha512-BYY7IavBjwsWWSmVcMz2A9mKiDD9RvacnsItgmy1xV8cmgbtxFfKmKMtkVpD7pYtkx4mIW4800yZBXueVFIWPw==
+
+"@json-schema-tools/reference-resolver@^1.1.1":
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/@json-schema-tools/reference-resolver/-/reference-resolver-1.1.1.tgz#f001785b65756042679f3429a0a530a32b16ad8f"
+  integrity sha512-T0ntnhaMUOEBNzb37Y7LRJdCt34vlExEqyVvcRO1iScLpVnBhddgECS1XjT8eZQVc7UuH5KssTy8T0/g7m1xbw==
+  dependencies:
+    "@json-schema-spec/json-pointer" "^0.1.2"
+    isomorphic-fetch "^3.0.0"
+
 "@json-schema-tools/referencer@^1.0.3":
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/@json-schema-tools/referencer/-/referencer-1.0.3.tgz#7001a9f4c5a08899200bfdd7d3355fc09948cd27"
@@ -40,6 +53,14 @@
   resolved "https://registry.yarnpkg.com/@json-schema-tools/traverse/-/traverse-1.7.7.tgz#1b5ec2854fec23a5ac3ff04d459c2ac11bcf2df2"
   integrity sha512-ch/pPoOEIeKe1PKbfuLEIM8MAdTiR+fr9BYk6VTlIHrya5f5d8shJg6h/oQgD3K/ftjU/RYBGGalw9Pz4pCXew==
 
+isomorphic-fetch@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/isomorphic-fetch/-/isomorphic-fetch-3.0.0.tgz#0267b005049046d2421207215d45d6a262b8b8b4"
+  integrity sha512-qvUtwJ3j6qwsF3jLxkZ72qCgjMysPzDfeV240JHiGZsANBYd+EEuu35v7dfrJ9Up0Ak07D7GGSkGhCHTqg/5wA==
+  dependencies:
+    node-fetch "^2.6.1"
+    whatwg-fetch "^3.4.1"
+
 json-schema@^0.2.5:
   version "0.2.5"
   resolved "https://registry.yarnpkg.com/json-schema/-/json-schema-0.2.5.tgz#97997f50972dd0500214e208c407efa4b5d7063b"
@@ -59,3 +80,13 @@ lodash.trim@^4.5.1:
   version "4.5.1"
   resolved "https://registry.yarnpkg.com/lodash.trim/-/lodash.trim-4.5.1.tgz#36425e7ee90be4aa5e27bcebb85b7d11ea47aa57"
   integrity sha1-NkJefukL5KpeJ7zruFt9EepHqlc=
+
+node-fetch@^2.6.1:
+  version "2.6.1"
+  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.1.tgz#045bd323631f76ed2e2b55573394416b639a0052"
+  integrity sha512-V4aYg89jEoVRxRb2fJdAg8FHvI7cEyYdVAh94HH0UIK8oJxUfkjlDQN9RbMx+bEjP7+ggMiFRprSti032Oipxw==
+
+whatwg-fetch@^3.4.1:
+  version "3.5.0"
+  resolved "https://registry.yarnpkg.com/whatwg-fetch/-/whatwg-fetch-3.5.0.tgz#605a2cd0a7146e5db141e29d1c62ab84c0c4c868"
+  integrity sha512-jXkLtsR42xhXg7akoDKvKWE40eJeI+2KZqcp2h3NsOrRnDvtWX36KcKl30dy+hxECivdk2BVUHVNrPtoMBUx6A==

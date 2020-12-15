@@ -5,7 +5,8 @@
   "author": "himanoa <matsunoappy@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "@json-schema-tools/transpiler": "^1.7.0",
-    "@japan-d2/schema": "^0.8.2"
+    "@japan-d2/schema": "^0.8.2",
+    "@json-schema-tools/reference-resolver": "^1.1.1",
+    "@json-schema-tools/transpiler": "^1.7.0"
   }
 }
