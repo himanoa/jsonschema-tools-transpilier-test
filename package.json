@@ -3,5 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "author": "himanoa <matsunoappy@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@json-schema-tools/transpiler": "^1.7.0"
+  }
 }
