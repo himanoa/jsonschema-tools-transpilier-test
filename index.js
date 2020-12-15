@@ -1,13 +1,12 @@
 const JsonSchemaTranspiler = require("@json-schema-tools/transpiler").default
 const JsonSchemaDereferencer = require("@json-schema-tools/dereferencer").default;
-const { defineSchema, field } = require("@japan-d2/schema")
+const { defineSchema } = require("@japan-d2/schema")
 
-const UserKind = field.enum('kind', ['readonly', 'normal', 'admin'])
 
 const user = defineSchema()
   .string('name', {maxLength: 255, minLength: 1})
   .integer("age", { minimum: 0 })
-  .enum('kind', UserKind)
+  .enum('kind', ['readonly', 'normal', 'admin'])
 
 async function run() {
   const userSchema = user.toJSONSchema()
