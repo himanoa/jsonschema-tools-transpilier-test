@@ -4,10 +4,8 @@
   "main": "index.js",
   "author": "himanoa <matsunoappy@gmail.com>",
   "license": "MIT",
-  "devDependencies": {
-    "@json-schema-tools/transpiler": "^1.7.0"
-  },
   "dependencies": {
+    "@json-schema-tools/transpiler": "^1.7.0",
     "@japan-d2/schema": "^0.8.2"
   }
 }
