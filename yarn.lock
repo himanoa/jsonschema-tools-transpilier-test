@@ -2,6 +2,14 @@
 # yarn lockfile v1
 
 
+"@japan-d2/schema@^0.8.2":
+  version "0.8.2"
+  resolved "https://registry.yarnpkg.com/@japan-d2/schema/-/schema-0.8.2.tgz#44431478e5cd86c4e1cf32ad2ac812137c5ea691"
+  integrity sha512-32W6TI7BNjRI8FEfBro5uQgVgT1CKH+ENsGS1vePBw4govwZQ5ZBMxDVqPcqcoh6aUORuEtdERt+8US+g2j4SQ==
+  dependencies:
+    json-schema "^0.2.5"
+    jsonschema "^1.4.0"
+
 "@json-schema-tools/referencer@^1.0.3":
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/@json-schema-tools/referencer/-/referencer-1.0.3.tgz#7001a9f4c5a08899200bfdd7d3355fc09948cd27"
@@ -31,6 +39,16 @@
   version "1.7.7"
   resolved "https://registry.yarnpkg.com/@json-schema-tools/traverse/-/traverse-1.7.7.tgz#1b5ec2854fec23a5ac3ff04d459c2ac11bcf2df2"
   integrity sha512-ch/pPoOEIeKe1PKbfuLEIM8MAdTiR+fr9BYk6VTlIHrya5f5d8shJg6h/oQgD3K/ftjU/RYBGGalw9Pz4pCXew==
+
+json-schema@^0.2.5:
+  version "0.2.5"
+  resolved "https://registry.yarnpkg.com/json-schema/-/json-schema-0.2.5.tgz#97997f50972dd0500214e208c407efa4b5d7063b"
+  integrity sha512-gWJOWYFrhQ8j7pVm0EM8Slr+EPVq1Phf6lvzvD/WCeqkrx/f2xBI0xOsRRS9xCn3I4vKtP519dvs3TP09r24wQ==
+
+jsonschema@^1.4.0:
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/jsonschema/-/jsonschema-1.4.0.tgz#1afa34c4bc22190d8e42271ec17ac8b3404f87b2"
+  integrity sha512-/YgW6pRMr6M7C+4o8kS+B/2myEpHCrxO4PEWnqJNBFMjn7EWXqlQ4tGwL6xTHeRplwuZmcAncdvfOad1nT2yMw==
 
 lodash.deburr@^4.1.0:
   version "4.1.0"
